@@ -1,0 +1,64 @@
+@media screen{
+body{
+    background-image: url(https://thumbs.dreamstime.com/t/abstract-white-geometric-background-white-texture-shadow-d-render-rendering-93545834.jpg);
+    backdrop-filter: blur(1.5px);
+}
+}
+@media print{
+    body {
+        background-color:white;
+        color:black;
+    }
+    .custom-container{
+        background-color: white;
+    }
+}
+header {
+    height:200px;
+    background-image: url("banniere.png");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+div[id*="menu"] >a{
+    text-decoration: none;
+}
+.custom-container{
+    background: linear-gradient(rgba(0,0,0), rgba(150,150,150));
+    max-width: 1200px;
+    margin:auto;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+div[id*="menu"]{
+    background-color:rgb(30,30,30,1);
+    color: white;
+    font-size:20px;
+    display: inline-block;
+    border: 1px solid white;
+    text-align:center;
+    
+}
+div[id*="menu"]:hover{
+    background-color:white;
+    color:rgb(50,50,50,1);
+    transition-duration: 1s;
+    text-align:center;
+}
+#video{
+    text-align:center;
+    color:white;
+}
+.pied{
+    text-align:center;
+    color:white;
+}
+.bordure{
+    border-left:solid 1px white;
+    border-right:solid 1px white;
+}
+div{
+    color:white;
+}
+h2{
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+div{
+    text-align: center;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+    max-width: 220px;
+    max-height: 200px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: smaller sans-serif;
+    padding: 2px;
+    text-align: center;
+}
